@@ -1,0 +1,146 @@
+        {
+            "name": "name",
+            "plant": {
+                "location": {
+                    "lat": 49.123,
+                    "lon": 12.123
+                },
+                "size": {
+                    "value": 0,
+                    "unit": "PE"
+                },
+                "primary_treatment": false,
+                "phosphorus_eliminiation": true,
+                "phosphorus_precipitant": "string",
+                "phosphorus_precipitant_consumption": {
+                    "unit": "kg",
+                    "value": 0
+                },
+                "biological_treatment": "string",
+                "sludge_stabilisation": "string",
+                "sewage_sludge_dewatering": true,
+                "mobile_or_stationary_dewatering": "mobile",
+                "dewatering_method": "centrifuge",
+                "dry_substance_after_dewatering": {
+                    "value": 0,
+                    "unit": "%"
+                },
+                "sludge_drying": false,
+                "sludge_drying_technology": false,
+                "dry_substance_after_drying": {
+                    "value": false,
+                    "unit": "%"
+                },
+                "energy_source_for_drying": false,
+                "wastewater_charge": {
+                    "unit": "EUR",
+                    "value": 0.0
+                }
+            },
+            "energy": {
+                "electricity_from_grid": {
+                    "unit": "kWh",
+                    "value": 0.0
+                },
+                "electricity_production_from_sewage_gas": {
+                    "unit": "kWh",
+                    "value": 0.0
+                },
+                "electricity_production_from_PV": {
+                    "unit": "kWh",
+                    "value": 0.0
+                },
+                "natural_gas_consumption": {
+                    "unit": "m3",
+                    "value": 0.0
+                },
+                "fuel_oil_consumption": {
+                    "unit": "kg",
+                    "value": 0.0
+                }
+            },
+            "influent": {
+                "load": 0,
+                "wastewater_influent": 0,
+                "BOD": 0.0,
+                "COD": 0.0,
+                "NH4-N": 0,
+                "totN": 0,
+                "Ptot": 0.0
+            },
+            "effluent": {
+                "BOD": 0.0,
+                "COD": 0.0,
+                "NH4-N": 0.0,
+                "NO3-N": 0.0,
+                "NO2-N": 0.0,
+                "Ntot": 0.0,
+                "totN": 0,
+                "Ptot": 0.0
+            },
+            "sludge": {
+                "date": "2016-08-30T00:00:00.000Z",
+                "dry_substance": 0.0,
+                "Fe": null,
+                "pH-value": 0.0,
+                "ignition_loss": 0.0,
+                "total_nitrogen_N": 0.0,
+                "NH4-N": 0.0,
+                "Ptot": null,
+                "P2O5": 0.0,
+                "CaO": 0.0,
+                "As": 0.0,
+                "Pb": 0.0,
+                "Cd": 0.0,
+                "Cr": 0.0,
+                "Cr VI": 0,
+                "Cu": 0.0,
+                "Ni": 0.0,
+                "Hg": 0.0,
+                "TI": 0.0,
+                "Zn": 0.0,
+                "AOX": 0.0,
+                "dl-PCB": 0.0,
+                "PCDD/F": 0.0,
+                "volume": {
+                    "unit": "m3",
+                    "value": 0
+                },
+                "external_sludge": {
+                    "unit": "m3",
+                    "value": 0
+                },
+                "screenings": {
+                    "unit": "t",
+                    "value": 0
+                },
+                "grit_chamber_trappings": {
+                    "unit": "t",
+                    "value": 0
+                }
+            },
+            "sludge disposal": {
+                "unit": "t ds",
+                "agricultural_use": 0.0,
+                "landscaping_horticultur": 0.0,
+                "mono-incineration": 0.0,
+                "co-incineration": 0.0,
+                "landfilling": 0.0,
+                "humification": 0.0,
+                "recultivation_composting": 0.0,
+                "location": {
+                    "agricultural_use": "string",
+                    "landscaping_horticultur": "string",
+                    "mono-incineration": "string",
+                    "co-incineration": "string",
+                    "landfilling": "string",
+                    "humification": "string",
+                    "recultivation_composting": "string"
+                },
+                "additional_information": "string",
+                "disposal cost": {
+                    "unit": "EUR",
+                    "value": 0
+                }
+            }
+        }
