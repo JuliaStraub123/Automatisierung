@@ -1,2 +1,2 @@
 # Automatisierung
-Quell-Code und Datein zu Dissertationsschrift
+Quell-Code und Dateien zu Dissertationsschrift
